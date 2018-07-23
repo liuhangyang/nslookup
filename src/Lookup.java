@@ -102,7 +102,7 @@ public  class Lookup {
     }
     public static final String dns_ip = "8.8.8.8";
     public static void main(String[] args) {
-        Lookup lookup = new Lookup("static.xiaojukeji.com");
+        Lookup lookup = new Lookup("www.baidu.com");
         lookup.Run();
         String cname = lookup.getCname();
         System.out.println(cname);
